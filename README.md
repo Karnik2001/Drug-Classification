@@ -6,6 +6,8 @@ Steps to implement drug classification in Python
 2. Descriptive statistics including checking for null values.
 3. Create stack columns for drugs taken by age, sex, blood pressure, chloesterol levels,and concentration of sodium to potassium.
 4. Encode cateogrical features into numerical values.
-5. Split the dataset into a training and test set
+5. Split the dataset into a training and test set of all the numeric variables.
+6. Train the models with the training and test datasets of all the numeric variables.
+7. Intercept the reports of all the numeric variables.
 
 Conclusion: The drugs are mostly classified by Age and Na to K ratio whereas blood pressure, blood chloesterol, and sex does a poor performance of classifying the drugs. 
